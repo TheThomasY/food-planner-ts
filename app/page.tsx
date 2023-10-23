@@ -1,9 +1,9 @@
-import Planner from "./Planner/Planner";
+import WeekCalendar from "@/components/WeekCalendar";
 
 export default function Home() {
   return (
     <main className="w-full flex flex-col justify-center items-center">
-      <Planner />
+      <WeekCalendar />
     </main>
   );
 }
